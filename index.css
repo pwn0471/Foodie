@@ -1,0 +1,213 @@
+*{
+    font-family: 'Montserrat', sans-serif, Arial;
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+       height: 110px;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-items: center;
+       justify-content: space-between;
+       background-color: #ff5200;
+       margin-top: -1rem;
+}
+.header img{
+    height: 80px;
+    width: 5%;
+    margin-left: 1rem;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar li{
+    display: inline;
+    margin-left: 4rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.nav-bar:hover{
+    opacity: 1;
+
+}
+.box3{
+    text-align: center;
+    padding: 1rem;
+    width: fit-content;
+    box-shadow: 0px;
+    margin-left: 3rem;
+}
+@media(max-width:1200px) {
+    .hide{
+        display: none;
+    }
+}
+.body{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding: 6rem;
+}
+.line{
+    width: 5px;
+    height: 150px;
+    background-color: #ff5200;
+    margin-right: .5rem;
+    margin-top: 2rem;
+}
+.contents{
+  margin: rem;
+}
+.body img{
+    margin-left: 20rem;
+    height: 28rem;
+    width: 50%;
+}
+.b{
+    margin: 1rem;
+}
+.m{
+    background-color: rgb(134, 225, 134);
+    border-radius: 5rem;
+    width: rem;
+    height: 2rem;
+    font-weight: 700;
+}
+.m:hover{
+    background-color: orangered;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.search-bar{
+    background-color: rgb(239, 237, 235);
+    height: 55px;
+    width: 20%;
+    margin-right:  1.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.search-bar input{
+    border: none;
+    font-size: 18px;
+    width:210px;
+    height: 35px;
+    background-color: rgb(239, 237, 235);
+    cursor: pointer;
+
+}
+.fa-location-dot{
+    color: orangered;
+    font-size: 20px;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    margin-top: .9rem;
+}
+.location{
+    background-color: rgb(239, 237, 235);
+    height: 55px;
+    width: 30%;
+    cursor: pointer;
+}
+.fa-caret-down{
+    color: black;
+    margin-left: 1rem;
+    margin-top: px;
+}
+.search-nav{
+           margin-top: .5rem;
+           
+}
+.search-nav input{
+    margin-right: rem;
+    width: 87.5%;
+    margin-left: 1rem;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    margin-left: 8rem;
+}
+.cards h2{
+    font-weight: 800;
+    text-decoration: underline;
+    margin-left: 1.5rem;
+}
+.card{
+    background-color: rgb(239, 237, 235);
+    width: 300px;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.card img{
+    width: 300px;
+    height: 200px;
+    border-radius: .5rem;
+}
+.tittle{
+    font-weight: 600;
+}
+.info{
+    font-size: .85rem;
+    opacity: .7;
+}
+.footer-line{
+    margin-top: 7rem;
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid black;
+    opacity: .5;
+    margin-left: 5rem;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+.footer h1{
+    color: orangered;
+    margin-left: 18rem;
+    cursor: pointer;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+.desc ul li{
+    margin-top: 1rem;
+    margin-left:-2rem;
+    opacity: .7;
+    font-size: .9rem;
+    margin-right: 9rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.desc ul li:hover{
+    opacity: 1;
+    text-decoration: underline;
+    font-size: 1.2;
+}
+.about {
+    margin-top: 2rem;
+}
+.rest{
+    margin-bottom: 2rem;
+}
+.social ul li{
+}
